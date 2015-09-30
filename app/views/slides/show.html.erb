@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @slide.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @slide.description %>
+</p>
+
+<p>
+  <strong>Link url:</strong>
+  <%= @slide.link_url %>
+</p>
+
+<p>
+  <strong>Link text:</strong>
+  <%= @slide.link_text %>
+</p>
+
+<p>
+  <strong>Link blank:</strong>
+  <%= @slide.link_blank %>
+</p>
+
+<p>
+  <strong>Published:</strong>
+  <%= @slide.published %>
+</p>
+
+<p>
+  <strong>Flag:</strong>
+  <%= @slide.flag %>
+</p>
+
+<%= link_to 'Edit', edit_slide_path(@slide) %> |
+<%= link_to 'Back', slides_path %>

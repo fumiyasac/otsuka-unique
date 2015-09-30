@@ -1,0 +1,120 @@
+<% breadcrumb :control_banners %>
+
+<!-- ## Banner View Content Start ## -->
+<article class="adminBlock">
+<header class="adminTitle">
+<h2>登録バナーの一覧</h2>
+</header>
+
+<article class="adminContentList adminContact">
+<header>
+<h3>ここでは現在登録されているバナーの一覧を見ることが出来ます。</h3>
+</header>
+<section>
+<div class="adminContentsBody">
+<p><b>■&nbsp;現在のデータ総数</b></p>
+<p>現在は全<span id="allAmount"><%= @banners_total_count %></span>件登録されています。(<%= ApplicationController::ITEMS_PER_PAGE_ADMIN %>件ずつ表示)</p>			
+<ul class="magt10 magb10 padl20">
+<li><%= link_to '新規追加', new_banner_path %></li>
+<li><%= link_to 'CSVダウンロード', download_banners_path + '.csv' %></li>
+</ul>
+</div>
+</section>
+</article>
+
+<!-- # Loop Start #  -->
+<% @banners.each do |banner| %>
+<article id="banner_<%= banner.id %>" class="adminContentContactList">
+<header>
+<h3>ID：<%= banner.id %></h3>
+</header>
+<section>
+<div class="adminContentsBody">
+<table cellpadding="0" cellspacing="0">
+<tr>
+<th>バナー情報</th>
+<td>
+<div class="padt10">
+<%= image_tag banner.image.url(:banner_sample) %>
+<br>    
+<ul class="magl15">
+<li>URL：
+<% 
+	# 公開フラグの設定
+	if banner.link_blank == ApplicationController::LINK_EXTERNAL
+		target_setting = "_blank"
+	else
+		target_setting = nil
+	end
+%>
+<%= link_to banner.link_url.to_s, new_banner_path, { :target => target_setting } %>
+<br>(<%= ApplicationController::FLAG_HASH.key(banner.link_blank.to_i) %>)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+<th>タイトル</th>
+<td><%= banner.title %></td>
+</tr>
+<tr>
+<th>バナー本文</th>
+<td><%= banner.description %></td>
+</tr>
+<tr>
+<th>公開日</th>
+<td>
+<% banner_date = banner.published.to_s %>
+<%= banner_date.gsub(/\-/,'.') %>
+</td>
+</tr>
+<tr>
+<th>公開フラグ</th>
+<td><span id="banner_flag_<%= banner.id %>"><%= ApplicationController::FLAG_HASH.key(banner.id.to_i) %></span>
+</td>
+</tr>
+</table>
+<p class="content">
+<a href="#" class="change" data-post-id="<%= banner.id %>">公開フラグの設定</a>
+&nbsp;
+<%= link_to '編集', edit_banner_path(banner), :class => 'edit' %>
+&nbsp;
+<a href="#" class="delete" data-post-id="<%= banner.id %>">削除</a>
+</p>
+</div>
+</section>
+</article>
+<% end %>
+<!-- # Loop End # -->
+
+<script type="text/javascript">
+$(function(){
+    
+    $("a.change").click(function(e){
+        if(confirm('公開ステータスを変更しますか？')){
+            $.post('/control/banners/change/'+ $(this).data('post-id'),{},function(res){
+               $('span#banner_flag_' + res.id).html(res.flagStatus);
+            },"json");
+        }
+        return false;
+    });
+
+    $("a.delete").click(function(e){
+        if(confirm('本当に削除しますか？')){
+            $.post('/control/banners/delete/'+ $(this).data('post-id'),{},function(res){
+               $('article#banner_' + res.id).delay(0).fadeOut("slow");
+               $('#allAmount').html(res.allAmount);
+            },"json");
+        }
+        return false;
+    });
+});
+</script>
+</article>
+
+<aside class="pagenationArea">
+<p>
+<%= paginate(@banners) %>
+</p>
+</aside>
+<!-- ## Banner View Content End ## -->

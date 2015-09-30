@@ -1,0 +1,27 @@
+<article class="showcaseArea">
+<header>
+<h2><img src="/images/common/h2_showcase.png" width="600" height="40" alt=""></h2>
+</header>
+<section id="shopSlider">
+<ul>
+<!-- # Loop Start #  -->
+<?php $showcases = $this->requestAction('showcases/index/limit:4'); ?>
+<?php foreach ($showcases as $showcase): ?>
+<li><div>
+<img src="/img/showcase/resized_<?php echo h($showcase['Showcase']['image_main']); ?>" width="280" height="160" alt="" class="showcaseThumb">
+<p class="showcaseTitle"><span>●</span>&nbsp;<?php echo h($showcase['Showcase']['title']); ?></p>
+<p class="showcasePrice"><?php echo h($showcase['Showcase']['price']); ?></p>
+<p class="description">
+<?php if(mb_strlen($showcase['Showcase']['description_main']) > 50): ?>
+<?php echo h(mb_substr($showcase['Showcase']['description_main'], 0, 50)."..."); ?>
+<?php else: ?>
+<?php echo h($showcase['Showcase']['description_main']); ?>
+<?php endif; ?>
+</p>
+<p class="showcaseButton"><a href="/showcases/view/<?php echo h($showcase['Showcase']['id']); ?>"><img src="/images/common/shoplink_button.png" width="143" height="23" alt=""></a></p>
+</div></li>
+<?php endforeach; ?>
+<!-- # Loop End #  -->
+</ul>
+</section>
+</article>

@@ -1,0 +1,84 @@
+<div class="forms">
+<%= form_for(@banner) do |f| %>
+<table cellspacing="0" cellpadding="0" id="formAdmin">
+<tr>
+<th>タイトル&nbsp;<span class="requierd">*</span></th>
+<td>
+<%= f.text_field :title, :class => 'formArea' %>
+</td>
+</tr>
+<tr>
+<th>バナー画像&nbsp;<span class="requierd">*</span></th>
+<td>
+<%= f.file_field :image %>
+</td>
+</tr>
+<tr>
+<th>本文&nbsp;<span class="requierd">*</span></th>
+<td>
+<%= f.text_area :description, {:class => 'formAreaText', :size => "40x5"} %>
+</td>
+</tr>
+<tr>
+<th>リンクURL&nbsp;<span class="requierd">*</span></th>
+<td>
+<%= f.text_area :link_url, {:class => 'formAreaText', :size => "40x5"} %>
+</td>
+</tr>
+<tr>
+<th>リンクの種類&nbsp;<span class="requierd">*</span></th>
+<td>
+<% 
+	# 公開フラグの設定
+	if @banner.link_blank == ApplicationController::LINK_INTERNAL
+		check_internal = true
+		check_external = false
+	else
+		check_internal = false
+		check_external = true					  
+	end
+%>
+<label style="font-weight:normal;"><%= f.radio_button :link_blank, ApplicationController::LINK_INTERNAL, {:checked => check_internal} %>&nbsp;
+<%= ApplicationController::LINK_HASH.key(ApplicationController::LINK_INTERNAL) %></label>　
+<label style="font-weight:normal;"><%= f.radio_button :link_blank, ApplicationController::LINK_EXTERNAL, {:checked => check_external} %>&nbsp;
+<%= ApplicationController::LINK_HASH.key(ApplicationController::LINK_EXTERNAL) %></label>
+</td>
+</tr>
+<tr>
+<th>公開日&nbsp;<span class="requierd">*</span></th>
+<td>
+<%= f.date_select :published %>
+</td>
+</tr>
+<tr>
+<th>公開フラグ&nbsp;<span class="requierd">*</span></th>
+<td>
+<% # 公開フラグの設定
+if @banner.flag == ApplicationController::ARTICLE_PUBLISHED
+	check_published = true
+	check_pending   = false
+else
+	check_published = false
+	check_pending   = true					  
+end
+%>
+<label style="font-weight:normal;"><%= f.radio_button :flag, ApplicationController::ARTICLE_PUBLISHED, {:checked => check_published} %>&nbsp;
+<%= ApplicationController::FLAG_HASH.key(ApplicationController::ARTICLE_PUBLISHED) %></label>　
+<label style="font-weight:normal;"><%= f.radio_button :flag, ApplicationController::ARTICLE_PENDING, {:checked => check_pending} %>&nbsp;
+<%= ApplicationController::FLAG_HASH.key(ApplicationController::ARTICLE_PENDING) %></label>
+</td>
+</tr>
+</table>
+<div class="sendButton">
+<p>
+<%= f.submit '登録または更新する', 'id' => 'confirmButton' %>
+</p>
+</div>
+<% end %>
+</div>
+</div>
+</section>
+</article>
+
+</article>
+<!-- ## Cake View Content End ## -->

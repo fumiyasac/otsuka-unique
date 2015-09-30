@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+    detail_catalog.css
+	
+	Fumiya Sakai(just1factory.net).
+	 
+    00: sidebar
+*/
+
+/* ============================================================
+00: sideber
+============================================================ */
+/* Catalog Sidebar Template */
+.catalogCommentArticle{
+	width: 300px;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.catalogCommentArticle .catalogCommentHeader{
+	width: 300px;
+	height: 20px;
+}
+
+.catalogCommentArticle header h4{
+}
+
+.catalogCommentArticle .catalogCommentVisual{
+	width: 300px;
+	height: 120px;
+	margin-top: 20px;
+}
+
+.catalogCommentArticle section{
+	padding: 8px 5px;
+	border-bottom: dotted 1px #ebebeb;
+}
+
+.catalogCommentArticle section header h5{
+	color: #683800;
+}
+
+.catalogCommentArticle section div{
+}
+
+.catalogCommentArticle section div p{
+	font-size: 93%;
+}
+
+.catalogCommentArticle section div p.notComment{
+	text-align: center;
+	color: #ff0000;
+}
+
+.catalogCommentArticle section div p.catalogCommentDate{
+	color: #ffa200;
+	padding-bottom: 2px;
+}
+
+.catalogCommentArticle section div p.allRead{
+	color: #683800;
+	text-align: right;
+	font-size: 93%;
+}
+
+.catalogCommentArticle section div p a{
+	color: #683800;
+	text-decoration: none;
+}
+
+.catalogCommentArticle section div p a:hover{
+	text-decoration: underline;
+}
+
+.catalogCommentArticle .wholeCommentLink{
+	padding-top: 7px;
+	text-align: right;
+}
+
+.catalogCommentArticle .wholeCommentLink a{
+	background: url("../images/common/icon_bg_arrow.png") no-repeat scroll left center;
+	color: #683800;
+	text-decoration: none;
+	padding-left: 12px;
+	font-size: 93%;
+}
+
+.catalogCommentArticle .wholeCommentLink a:hover{
+	text-decoration: underline;
+}
+
+/* コメント入力欄 */
+#commentResultArea{
+    padding-top: 10px;
+    width: 300px;
+    height: auto;
+}
+
+#commentResultArea p{
+    margin-left: 7px;
+    color: #683800;
+    font-size: 93%;
+}
+
+#commentResultArea p.error{
+	color: #ff0000;
+}
+
+.commentWriteArea{
+    width: 300px;
+    height: auto;
+}
+
+.commentWriteArea .authorWrite{
+    margin-left: 7px;
+}
+
+.commentWriteArea p{
+    color: #683800;
+    font-size: 93%;
+}
+
+.commentWriteArea #commentUsername{
+    border: 1px solid #ebebeb;
+    font-size: 100%;
+    height: 22px;
+    width: 298px;
+}
+
+.commentWriteArea .formCommentAreaText{
+    border: 1px solid #EBEBEB;
+    font-size: 100%;
+    height: 88px;
+    width: 298px;
+}
+
+.commentWriteArea .postCatalogComment{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.commentWriteArea .postCatalogComment #commentSubmitButton{
+    background: none repeat scroll 0 0 #E39943;
+	border: 0 solid;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px;
+	text-align: center;
+}
+
+/* コメントポリシーエリア */
+.commentPolicyArea{
+	padding-top: 20px;
+    width: 600px;
+    height: auto;
+    font-size: 93%;
+}
+
+.commentPolicyArea header h3{
+    color: #FFA200;
+}

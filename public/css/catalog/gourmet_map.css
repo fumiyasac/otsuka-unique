@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+    gourmet_map.css
+	
+	Fumiya Sakai(just1factory.net)
+	
+*/
+
+/* Google Map Template */
+.gMapGallery{
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 940px;
+	height: 500px;
+}
+
+#gMapSlide{
+	width: 940px;
+	height: 500px;
+	background: #ebebeb;	
+}
+
+/* gourmetInfo Area */
+.gourmetInfoArea{
+	background: #ffffff;
+	width: 600px;
+	height: auto;
+}
+
+.gourmetInfoArea header{
+	width: 600px;
+	height: 20px;
+        padding-bottom: 4px;
+}
+
+.gourmetInfoArea header h2{
+}
+
+.gourmetInfoArea div#gourmetInfoSlider{
+	width: 600px;
+	height: auto;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl{
+    	margin-top: 10px;
+	width: 600px;
+	height: auto;
+        border-bottom: dotted 1px #ebebeb;
+}
+
+/* 検索エリア（ここから） */
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetSearchBox{
+	width: 600px;
+	height: auto;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetSearchBox .gourmetSearchCountTxt{
+        margin-left: 5px;
+        font-size: 93%;
+        padding-bottom: 7px;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetSearchBox .gourmetSearchCountTxt strong.red{
+        color:#ff0000!important;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetSearchBox #gourmetSearchKeywordTxtBox,
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetSearchBox #gourmetSearchAddressBox{
+        border: medium none;
+        font-size: 100%;
+        height: 22px;
+        width: 440px;
+        border: 1px solid #E2E2E2;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetSearchBox .gourmetSearchTbl{
+        font-size: 93%;
+        margin-bottom: 0;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetSearchBox .gourmetSearchTbl th{
+        width: 80px;
+        text-align: left;
+        vertical-align: top;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetSearchBox .gourmetSearchTbl td label{
+        margin-left: 2px;
+        margin-right: 15px;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetSearchBox .searchAPIButtonArea{
+        text-align: center;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetSearchBox  .searchAPIButtonArea #searchAPIButton{
+        background: url("../../images/catalogs/api_search_btn.gif") no-repeat scroll left top;
+        border: 0 solid;
+        height: 24px;
+        width: 230px;        
+}
+/* 検索エリア（ここまで） */
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .noDataArea p{
+        text-align: center;
+        color: #ff0000;
+        font-size: 100%;
+        padding-bottom: 8px;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl header{
+    	margin-bottom: 6px;
+        height: auto;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl header h3{
+    	background: url(../../images/catalogs/icon_catalog_1.png) left center no-repeat;
+	font-size: 114%;
+	/* margin-left: 9px; */
+	padding-left: 24px;
+	color: #683800;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetPhotoFromAPI{
+        float: left;
+        width: 200px;
+        height: auto;
+        padding-right: 20px;
+        padding-bottom: 10px;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetPhotoFromAPI p{
+        font-size: 85%;
+        color: #000000;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetInfoFromAPI{
+        width: 380px;
+        height: auto;
+        float: right;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetInfoFromAPI table.dataFromAPI{
+        margin-bottom: 10px;
+        border-top:solid 1px #ebe5df;
+        width: 380px;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetInfoFromAPI table.dataFromAPI .odd{
+        background-color: #f8f4f0;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetInfoFromAPI table.dataFromAPI .even{
+        background-color: #fcf9f6;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetInfoFromAPI table.dataFromAPI th{
+        border-bottom:solid 1px #ebe5df;
+        width: 80px;
+        text-align: left;
+        font-size: 93%;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetInfoFromAPI table.dataFromAPI td{
+        border-bottom:solid 1px #ebe5df;
+        width: 300px;
+        text-align: left;
+        font-size: 93%;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetInfoFromAPI ul{
+        width: 380px;
+        height: 20px;
+        display: block;
+        padding-bottom: 10px;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetInfoFromAPI ul li{
+        display: inline-block;
+        list-style-type: none;
+        padding-right: 7px;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetInfoFromAPI ul li.hotpepper{
+        width: 150px;
+        height: 20px;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider section.gourmetInfoImpl .gourmetInfoFromAPI ul li.gurunabi{
+        width: 130px;
+        height: 20px;
+}
+
+.gourmetInfoArea div#gourmetInfoSlider aside.gourmetInfoPagenationArea{
+	width: 600px;
+        height:22px;
+        padding-top:20px;
+        padding-bottom:16px;
+}
+
+/* pager */
+aside.gourmetInfoPagenationArea .pagenationImpl{
+width:600px;
+height:22px;
+text-align:center;
+display: block;
+}
+
+aside.gourmetInfoPagenationArea .pagenationImpl span{
+padding:3px 6px;
+margin:0 4px;
+background:#ffffff;
+color:#ffffff;
+font-size:85%;
+position:relative;
+font-weight:bold;
+}
+
+aside.gourmetInfoPagenationArea .pagenationImpl a{
+padding:3px 6px;
+margin:0 4px;
+background:#f7f7f7;
+border:solid 1px #d1d1d1;
+color:#333333;
+font-size:85%;
+text-decoration:none;
+position:relative;
+font-weight:bold;
+}
+
+aside.gourmetInfoPagenationArea .pagenationImpl a:hover,
+aside.gourmetInfoPagenationArea .pagenationImpl a.current{
+padding:3px 6px;
+margin:0 4px;
+background:#d1d1d1;
+border:solid 1px #d1d1d1;
+color:#ffffff;
+font-size:85%;
+text-decoration:none;
+position:relative;
+font-weight:bold;
+}
+
+/* 使用API表示エリア */
+.gourmetInfoOtherArea{
+    width: 600px;
+    height: auto;
+    font-size: 93%;
+}
+
+.gourmetInfoOtherArea header h3{
+    color: #FFA200;
+}

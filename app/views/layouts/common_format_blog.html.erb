@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title><%= contents_document_title %></title>
+<!-- meta and other definition -->
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="start" href="/">
+<link rel="index" href="/index.php" title="大塚「珍しいもん」ストア　-Official Blog-">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="viewport" content="width=1020px,user-scalable=yes">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!-- CSS definition -->
+<link rel="stylesheet" type="text/css" href="/css/yui/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="/css/yui/base-min.css" />
+<link rel="stylesheet" type="text/css" href="/css/yui/font-min.css" />
+<link rel="stylesheet" type="text/css" href="/css/layout.css" />
+<link rel="stylesheet" type="text/css" href="/css/detail.css" />
+<link rel="stylesheet" type="text/css" href="/css/vtip.css">
+<link rel="stylesheet" type="text/css" href="/css/shadowbox.css">
+<link rel="stylesheet" type="text/css" href="/css/jquery.simplyscroll.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="/js/jquery.easing.1.3.js"></script>
+<script src="/js/pagescroller.js"></script>
+<script src="/js/jquery.opacity.rollover.js"></script>
+<script src="/js/vtip.js"></script>
+<script src="/js/jquery.simplyscroll.js"></script>
+<script src="/js/lazyload.js"></script>
+<script src="/js/definition.js"></script>
+<script src="/js/jquery.easyslider.js"></script>
+<script src="/js/jquery.cookie.js"></script>
+<script src="/js/tabview.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<div id="container">
+
+<!-- Header Contents Area// -->
+<%= render "shared/contents/header" %>
+<!-- //Header Contents Area -->
+
+<!-- Slide Contents Area// -->
+<%= render "shared/contents/showcase" %>
+<!-- //Slide Contents Area -->
+
+<!-- BreadCramb Contents Area// -->
+<aside class="breadCramb">
+<div id="bread">
+<p>
+
+</p>
+</div>
+</aside>
+<!-- //BreadCramb Contents Area -->
+
+<!-- Main Contents Area// -->
+<div id="mainContents">
+<div id="leftContents">
+<%= yield %>
+
+<!-- Showcase Content// -->
+<%= render "shared/contents/showcase" %>
+<!-- //Showcase Content -->
+</div>
+
+<div id="rightContents">
+<%= render "shared/contents/slideshow" %>
+</div>
+
+</div>
+
+<!-- //Main Contents Area -->
+
+<!-- Footer Contents Area// -->
+<%= render "shared/contents/footer" %>
+<!-- //Footer Contents Area -->
+        
+</div>
+</div>
+</body>
+</html>

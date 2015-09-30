@@ -1,0 +1,2355 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+    detail.css
+	
+	Fumiya Sakai(just1factry.net). 
+
+	01: index
+	02: detail
+	03: specials
+    04: abouts
+	05: contacts
+	06: newstopics
+	07: members
+	08: catalogs
+	09: catalogComments
+	10: posts
+	11: showcase
+*/
+
+/* ============================================================
+01: index
+============================================================ */
+/* Article Area */
+.topArticle{
+	background: #ffffff;
+	width: 600px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.topArticle .articleTitle{
+	width: 600px;
+	height: 40px;
+}
+
+.topArticle .articleTitle h2{
+}
+
+/* Article List */
+.topArticle .articleList{
+}
+
+.topArticle .articleList header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.topArticle .articleList header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+}
+
+.topArticle .articleList header h3 a{
+	color: #683800;
+	text-decoration: none;
+}
+
+.topArticle .articleList header h3 a:hover{
+	text-decoration: underline;
+}
+
+.topArticle .articleList section{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.topArticle .articleList section .entries{
+	width: 580px;
+	height: auto;
+	overflow: hidden;
+}
+
+.topArticle .articleList section .entries img.articleThumb{
+	vertical-align: top;
+	float: left;
+	padding-right: 20px;
+}
+
+.topArticle .articleList section .entries p{
+	color: #683800;
+}
+
+.topArticle .articleList section .entries .category{
+	font-size: 85%;
+	padding-bottom: 9px;
+}
+
+.topArticle .articleList section .entries .category img{
+	vertical-align: middle;
+}
+
+.topArticle .articleList section .entries .tags{
+	font-size: 85%;
+	padding-bottom: 9px;
+}
+
+.topArticle .articleList section .entries .tags img{
+	vertical-align: middle;
+}
+
+.topArticle .articleList section .entries .tags{
+	font-size: 85%;
+	padding-bottom: 9px;
+}
+
+.topArticle .articleList section .entries .date{
+	font-size: 85%;
+	padding-bottom: 9px;
+}
+
+.topArticle .articleList section .entries .content{
+	line-height: 1.8;
+}
+
+/* Pagenation */
+.pagenationArea{
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.pagenationArea a{
+	color: #683800;
+	text-decoration: none;
+}
+
+.pagenationArea a:hover{
+	text-decoration: underline;
+}
+
+/* Showcase Area */
+.showcaseArea{
+	background: #ffffff;
+	width: 600px;
+	height: auto;
+}
+
+.showcaseArea header{
+	width: 600px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+.showcaseArea header h2{
+}
+
+.showcaseArea section{
+/*
+	padding-left: 10px;
+	padding-right: 10px;
+*/
+
+	margin-left: 10px;
+	margin-right: 10px;
+
+	width: 580px;
+	overflow: hidden;
+	height: 160px;
+}
+
+.showcaseArea section ul li{
+	width: 580px;
+	height: 160px;
+	display: block;
+}
+
+.showcaseArea section img.showcaseThumb{
+	vertical-align: top;
+	float: left;
+	padding-right: 20px;
+}
+
+.showcaseArea section p{
+	color: #683800;
+}
+
+.showcaseArea section .showcaseTitle{
+	font-size: 114%;
+	font-weight: bold;
+	padding-bottom: 6px;
+}
+
+.showcaseArea section .showcaseTitle span{
+	color: #ffa200;
+	font-weight: normal;
+}
+
+.showcaseArea section .showcasePrice{
+	color: #ff0000;
+	padding-bottom: 6px;
+}
+
+.showcaseArea section .description{
+	line-height: 1.6;
+	padding-bottom: 12px;
+	padding-right: 10px;
+}
+
+.carouselBtn{
+text-align: center;
+}
+
+.carouselBtn a{
+	color: #683800;
+	text-decoration: none;
+}
+
+.carouselBtn a:hover{
+	text-decoration: underline;
+}
+
+/* ============================================================
+02: detail
+============================================================ */
+
+/* ============================================================
+03: specials
+============================================================ */
+/* Special Area */
+.specialsArticle{
+	background: #ffffff;
+	width: 600px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.specialsArticle .specialsTitle{
+	width: 600px;
+	height: 40px;
+}
+
+.specialsArticle .specialsTitle h2{
+}
+
+/* Special List */
+.specialsArticle .sentenseList{
+}
+
+.specialsArticle .sentenseList header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.specialsArticle .sentenseList header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.specialsArticle .sentenseList section.introduction{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.specialsArticle .sentenseList section.introduction .sentenses{
+	width: 580px;
+	height: auto;
+	overflow: hidden;
+}
+
+.specialsArticle .sentenseList section.introduction .sentenses p{
+	color: #683800;
+	line-height: 1.8;
+}
+
+/* Special Contents */
+.specialsArticle .sentenseList section.contentList{
+    border-top: dotted 1px #ebebeb;	
+	padding-bottom: 20px;
+    color: #683800;
+    overflow: hidden;
+}
+
+.specialsArticle .sentenseList section.contentList header{
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+
+.specialsArticle .sentenseList section.contentList .kcpy{
+    font-size: 93%; 
+}
+
+.specialsArticle .sentenseList section.contentList .main_image img{
+    border: solid 1px #f7f7f7; 
+}
+
+.specialsArticle .sentenseList section.contentList .published{
+    font-size: 93%; 
+    color: #ffa200;
+}
+
+.specialsArticle .sentenseList section.contentList .main_image{
+    float: left;
+}
+
+.specialsArticle .sentenseList section.contentList .readMore{
+    text-align: right;
+}
+
+.specialsArticle .sentenseList section.contentList .readMore a{
+    color: #683800;
+    text-decoration: none;
+    background: url("../images/common/icon_bg_arrow.png") no-repeat scroll left center;
+    padding-left: 12px;
+}
+
+.specialsArticle .sentenseList section.contentList .readMore a:hover{
+    text-decoration: underline;
+}
+
+.specialsArticle .sentenseList section.contentListNone .emptyData{
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Special Contents Detail */
+.specialsArticle .sentenseView{
+}
+
+.specialsArticle .sentenseView header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.specialsArticle .sentenseView header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.specialsArticle .sentenseView section.introduction{
+	padding-bottom: 15px;
+}
+
+.specialsArticle .sentenseView section.introduction .spacialMain{
+	width: 600px;
+	height: auto;
+	overflow: hidden;
+}
+
+.specialsArticle .sentenseView section.introduction .spacialMain p.image_main{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Special Contents Detail(Main) */
+.specialsArticle .sentenseView section.detailOfSpecialMain{
+	padding-bottom: 25px;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialMain header{
+    margin:0;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialMain header h4{
+	margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #ffa200;
+	border-style:solid;
+	background:#ffffff;
+	color:#ffa200;
+	line-height:140%;
+	font-weight:bold;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialMain div{
+	color:#683800;
+}
+
+/* Special Contents Detail(Sub) */
+.specialsArticle .sentenseView section.detailOfSpecialSub{
+	padding-bottom: 25px;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialSub header{
+    margin:0;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialSub header h4{
+	margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #ffa200;
+	border-style:solid;
+	background:#ffffff;
+	color:#ffa200;
+	line-height:140%;
+	font-weight:bold;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialSub div{
+    width: 600px;
+    height: auto;
+	color:#683800;
+    overflow: hidden;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialSub div p.image_sub{
+    float: right;
+}
+
+/* Special Contents Detail(Etc) */
+.specialsArticle .sentenseView section.detailOfSpecialEtc{
+    width: 600px;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialEtc div{
+    width: 596px;
+    padding: 2px;
+    background:#ebebeb;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialEtc div div.etcContents{
+    background: #ffffff;
+    line-height: 1.6;
+    padding: 0 5px;
+    width: 586px;
+    margin: 0;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialEtc div div.etcContents div.CKEditorContents{
+    padding: 5px;
+    width: 576px;
+    background: #ffffff;
+}
+
+/* CKEditor Contents (User) */
+.CKEditorContents p{
+    text-align: left;
+}
+
+.CKEditorContents table{
+    border-bottom:1px dotted #e2e2e2;
+    border-right:1px dotted #e2e2e2;
+    
+}
+
+.CKEditorContents ol li{
+    margin-left: 30px;
+}
+
+.CKEditorContents ul li{
+    margin-left: 25px;
+}
+
+.CKEditorContents td,.CKEditorContents th{
+    border-top:1px dotted #e2e2e2;
+    border-left:1px dotted #e2e2e2;
+}
+
+
+.specialsArticle .sentenseView section.detailOfSpecialEtc div p.etcInfo{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialEtc div p.etcInfo span{
+    color: #ffa200;
+}
+
+aside.afterLinks{
+    border-top: dotted 1px #ebebeb;	
+    width: 600px;
+    height: 24px;
+    position: relative;
+}
+
+aside.afterLinks p.backLink{
+    color: #683800;
+    font-size: 93%;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+        
+}
+
+aside.afterLinks p.backLink a{
+    color: #683800;
+    text-decoration: none;
+    background: url("../images/common/icon_bg_arrow.png") no-repeat scroll left center;
+    padding-left: 12px;        
+}
+
+aside.afterLinks p.backLink a:hover{
+    text-decoration: underline;
+}
+
+aside.afterLinks p.publishedDate{
+    font-size: 93%; 
+    color: #ffa200;
+    position: absolute;
+    top: 4px;
+    right: 0px;
+}
+
+/*
+.specialsArticle .sentenseView section.introduction .spacialMain p.publishDate{
+    font-size: 93%; 
+    color: #ffa200;
+    text-align: right;
+}
+
+.specialsArticle .sentenseView section.introduction .detailOfSpecial{
+}
+
+.specialsArticle .sentenseView section.introduction .detailOfSpecial .image_main{
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+/* ============================================================
+04: about
+============================================================ */
+/* About Area */
+.aboutArticle{
+	background: #ffffff;
+	width: 600px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.aboutArticle .aboutTitle{
+	width: 600px;
+	height: 40px;
+}
+
+.aboutArticle .aboutTitle h2{
+}
+
+/* About List */
+.aboutArticle .sentenseList{
+}
+
+.aboutArticle .sentenseList header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.aboutArticle .sentenseList header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.aboutArticle .sentenseList section{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.aboutArticle .sentenseList section .sentenses{
+	width: 580px;
+	height: auto;
+	overflow: hidden;
+}
+
+.aboutArticle .sentenseList section .sentenses p{
+	color: #683800;
+	line-height: 1.8;
+}
+
+
+
+/* ============================================================
+05: contact
+============================================================ */
+/* Contact Area */
+.contactArticle{
+	background: #ffffff;
+	width: 600px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.contactArticle .contactTitle{
+	width: 600px;
+	height: 40px;
+}
+
+.contactArticle .contactTitle h2{
+}
+
+/* Article List */
+.contactArticle .formList{
+}
+
+.contactArticle .formList header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.contactArticle .formList header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.contactArticle .formList section{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.contactArticle .formList section .forms{
+	width: 580px;
+	height: auto;
+	overflow: hidden;
+}
+
+.contactArticle .formList section .forms p{
+	color: #683800;
+	line-height: 1.8;
+}
+
+span.remarked{
+	color: #ffa200;
+}
+
+span.requierd{
+	color: #ff0000;
+}
+
+a.blue{
+    color: #3333ff;
+    text-decoration: underline;
+}
+
+a.blue:visited{
+    color: #3333ff;
+    text-decoration: underline;
+}
+
+.contactArticle .formList section .forms #formInquiry{
+	width: 576px;
+	border-right: solid 1px #e2e2e2!important; 
+	border-bottom: solid 1px #e2e2e2!important;
+}
+
+.contactArticle .formList section .forms #formInquiry th{
+	text-align: left;
+	width: 178px;
+	background: #ebebeb;
+	color: #683800;
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.contactArticle .formList section .forms #formInquiry td{
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.contactArticle .formList section .forms #formInquiry td div.error-message{
+    color: #ff0000;
+}
+
+.contactArticle .formList section .forms #formInquiry input{
+	width: 368px;
+	height: 22px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+}
+
+.contactArticle .formList section .forms #formInquiry textarea{
+	width: 368px;
+	height: 88px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+}
+
+.contactArticle .formList section .forms #formEnquete{
+	width: 576px;
+	border-right: solid 1px #e2e2e2!important; 
+	border-bottom: solid 1px #e2e2e2!important;
+}
+
+.contactArticle .formList section .forms #formEnquete th{
+	text-align: left;
+	background: #ebebeb;
+	color: #683800;
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.contactArticle .formList section .forms #formEnquete td{
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.contactArticle .formList section .forms #formEnquete input{
+	width: 559px;
+	height: 22px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+}
+
+.contactArticle .formList section .forms #formEnquete textarea{
+	width: 559px;
+	height: 88px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+}
+
+.contactArticle .formList section .forms .sendButton{
+	text-align: center;    
+}
+
+.contactArticle .formList section .forms .sendButton p{
+	text-align: center;
+}
+
+.contactArticle .formList section .forms .sendButton #ContactIndexForm,
+.contactArticle .formList section .forms .sendButton #ContactCompleteForm{
+    display: inline-block;
+}
+
+.contactArticle .formList section .forms .sendButton #indexButton,
+.contactArticle .formList section .forms .sendButton #confirmButton,
+.contactArticle .formList section .forms .sendButton #completeButton{
+	text-align: center;
+/*	width: 120px;*/
+    padding: 0 5px;
+    line-height: 30px;
+	height: 30px;
+	background: #e39943;
+	border: 0px solid;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ============================================================
+06: newstopics
+============================================================ */
+/* Newstopics Area */
+.newstopicsArticle{
+	background: #ffffff;
+	width: 600px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.newstopicsArticle .newstopicsTitle{
+	width: 600px;
+	height: 40px;
+}
+
+.newstopicsArticle .newstopicsTitle h2{
+}
+
+/* Newstopic List */
+.newstopicsArticle .sentenseList{
+}
+
+.newstopicsArticle .sentenseList header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.newstopicsArticle .sentenseList header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.newstopicsArticle .sentenseList section.introduction{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.newstopicsArticle .sentenseList section.introduction .sentenses{
+	width: 580px;
+	height: auto;
+	overflow: hidden;
+}
+
+.newstopicsArticle .sentenseList section.introduction .sentenses p{
+	color: #683800;
+	line-height: 1.8;
+}
+
+/* Newstopic Contents */
+.newstopicsArticle .sentenseList section.contentList{
+    border-top: dotted 1px #ebebeb;	
+	padding-bottom: 20px;
+    color: #683800;
+    overflow: hidden;
+}
+
+.newstopicsArticle .sentenseList section.contentList header{
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+
+.newstopicsArticle .sentenseList section.contentList .published{
+    font-size: 93%; 
+    color: #ffa200;
+}
+
+.newstopicsArticle .sentenseList section.contentList .readMore{
+    text-align: right;
+}
+
+.newstopicsArticle .sentenseList section.contentList .readMore a{
+    color: #683800;
+    text-decoration: none;
+    background: url("../images/common/icon_bg_arrow.png") no-repeat scroll left center;
+    padding-left: 12px;
+}
+
+.newstopicsArticle .sentenseList section.contentList .readMore a:hover{
+    text-decoration: underline;
+}
+
+.newstopicsArticle .sentenseList section.contentListNone .emptyData{
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Newstopic Contents Detail */
+.newstopicsArticle .sentenseView{
+}
+
+.newstopicsArticle .sentenseView header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.newstopicsArticle .sentenseView header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.newstopicsArticle .sentenseView section.introduction{
+	padding-bottom: 15px;
+}
+
+.newstopicsArticle .sentenseView section.introduction .newstopicMain{
+	width: 600px;
+	height: auto;
+	overflow: hidden;
+}
+
+.newstopicsArticle .sentenseView section.introduction .newstopicMain p.image_main{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Newstopic Contents Detail(Main) */
+.newstopicsArticle .sentenseView section.detailOfNewstopicMain{
+	padding-bottom: 25px;
+}
+
+.newstopicsArticle .sentenseView section.detailOfNewstopicMain div{
+	color:#683800;
+}
+
+.newstopicsArticle .sentenseView section.detailOfNewstopicMain div table{
+    border-bottom:1px dotted #e2e2e2;
+    border-right:1px dotted #e2e2e2;
+}
+
+.newstopicsArticle .sentenseView section.detailOfNewstopicMain div ol li{
+    margin-left: 30px;
+}
+
+.newstopicsArticle .sentenseView section.detailOfNewstopicMain div ul li{
+    margin-left: 25px;
+}
+
+.newstopicsArticle .sentenseView section.detailOfNewstopicMain div ul td,
+.newstopicsArticle .sentenseView section.detailOfNewstopicMain div ul th{
+    border-top:1px dotted #e2e2e2;
+    border-left:1px dotted #e2e2e2;
+}
+
+/* ============================================================
+07: members
+============================================================ */
+/* Members Area */
+.memberArticle{
+	background: #ffffff;
+	width: 600px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.memberArticle .memberTitle{
+	width: 600px;
+	height: 40px;
+}
+
+.memberArticle .memberTitle h2{
+}
+
+/* Article For Member */
+.memberArticle .sentenseList{
+}
+
+.memberArticle .sentenseList header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.memberArticle .sentenseList header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.memberArticle .sentenseList section.introduction{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.memberArticle .sentenseList section.introduction .sentenses{
+	width: 580px;
+	height: auto;
+	overflow: hidden;
+}
+
+.memberArticle .sentenseList section.introduction .sentenses p{
+	color: #683800;
+	line-height: 1.8;
+}
+
+/* Member Contents */
+.memberArticle .sentenseList section.contentList{
+    border-top: dotted 1px #ebebeb;	
+	padding-bottom: 20px;
+    color: #683800;
+    overflow: hidden;
+}
+
+.memberArticle .sentenseList section.contentList header{
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+
+.memberArticle .sentenseList section.contentList .published{
+    font-size: 93%; 
+    color: #ffa200;
+}
+
+.memberArticle .sentenseList section.contentList .readMore{
+    text-align: right;
+}
+
+.memberArticle .sentenseList section.contentList .readMore a{
+    color: #683800;
+    text-decoration: none;
+    background: url("../images/common/icon_bg_arrow.png") no-repeat scroll left center;
+    padding-left: 12px;
+}
+
+.memberArticle .sentenseList section.contentList .readMore a:hover{
+    text-decoration: underline;
+}
+
+.memberArticle .sentenseList section.contentListNone .emptyData{
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Member Mypage */
+.memberArticle .sentenseList div.mypageListArea{
+    border-bottom: dotted 1px #ebebeb;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 93%;
+}
+
+.memberArticle .sentenseList div.mypageListArea section.mypageList{
+    border-top: dotted 1px #ebebeb;	
+	padding-bottom: 8px;
+    color: #683800;
+    overflow: hidden;
+}
+
+.memberArticle .sentenseList div.mypageListArea section.mypageList header{
+    margin-top: 8px;
+    margin-bottom: 0;
+
+}
+
+.memberArticle .sentenseList div.mypageListArea section.mypageTable #formInquiry{
+	width: 578px;
+	border-right: solid 1px #e2e2e2!important; 
+	border-bottom: solid 1px #e2e2e2!important;
+}
+
+.memberArticle .sentenseList div.mypageListArea section.mypageTable #formInquiry th{
+	text-align: left;
+	width: 178px;
+	background: #ebebeb;
+	color: #683800;
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.memberArticle .sentenseList div.mypageListArea section.mypageTable #formInquiry td{
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.memberArticle .sentenseList div.mypageListArea section.mypageTable p.remarkText{
+}
+
+.memberArticle .sentenseList div.mypageListArea section.mypageTable p.operationLinkText{
+	text-align: right;
+}
+
+.memberArticle .sentenseList div.mypageListArea section.mypageList .published{
+    font-size: 93%; 
+    color: #ffa200;
+}
+
+.memberArticle .sentenseList div.mypageListArea section.mypageList .readMore{
+    text-align: right;
+    margin-top: -20px; /* ←これはアリなのか？ */
+}
+
+.memberArticle .sentenseList div.mypageListArea section.mypageList .readMore a{
+    color: #683800;
+    text-decoration: none;
+    background: url("../images/common/icon_bg_arrow.png") no-repeat scroll left center;
+    padding-left: 12px;
+}
+
+.memberArticle .sentenseList div.mypageListArea section.mypageList .readMore a:hover{
+    text-decoration: underline;
+}
+
+.memberArticle .sentenseList section.mypageListNone .emptyData{
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* マイページのサブエリア */
+aside.mypageSubPageArea{
+    padding-bottom: 20px;
+    font-size: 93%;
+}
+
+aside.mypageSubPageArea header h3{
+    color: #FFA200;
+}
+
+/* Article List */
+.memberArticle .formList{
+}
+
+.memberArticle .formList header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.memberArticle .formList header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.memberArticle .formList section{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.memberArticle .formList section .forms{
+	width: 580px;
+	height: auto;
+	overflow: hidden;
+}
+
+.memberArticle .formList section .forms p{
+	color: #683800;
+	line-height: 1.8;
+}
+
+span.remarked{
+	color: #ffa200;
+}
+
+span.requierd{
+	color: #ff0000;
+}
+
+#authMessage{
+	padding-top: 15px;
+	color: #ff0000!important;
+}
+
+a.blue{
+    color: #3333ff;
+    text-decoration: underline;
+}
+
+a.blue:visited{
+    color: #3333ff;
+    text-decoration: underline;
+}
+
+.memberArticle .formList section .forms #formInquiry{
+	width: 576px;
+	border-right: solid 1px #e2e2e2!important; 
+	border-bottom: solid 1px #e2e2e2!important;
+}
+
+.memberArticle .formList section .forms #formInquiry th{
+	text-align: left;
+	width: 178px;
+	background: #ebebeb;
+	color: #683800;
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.memberArticle .formList section .forms #formInquiry td{
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.memberArticle .formList section .forms #formInquiry td div.error-message{
+    color: #ff0000;
+}
+
+.memberArticle .formList section .forms #formInquiry input{
+	width: 368px;
+	height: 22px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+}
+
+.memberArticle .formList section .forms #formInquiry input.radio{
+	width: 14px;
+	height: 14px;
+}
+
+.memberArticle .formList section .forms #formInquiry textarea{
+	width: 368px;
+	height: 88px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+}
+
+.memberArticle .formList section .forms #formEnquete{
+	width: 576px;
+	border-right: solid 1px #e2e2e2!important; 
+	border-bottom: solid 1px #e2e2e2!important;
+}
+
+.memberArticle .formList section .forms #formEnquete th{
+	text-align: left;
+	background: #ebebeb;
+	color: #683800;
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.memberArticle .formList section .forms #formEnquete td{
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.memberArticle .formList section .forms #formEnquete td div.error-message{
+    color: #ff0000;
+}
+
+.memberArticle .formList section .forms #formEnquete td .servicePolicy{
+    width: 553px;
+    padding: 5px;
+	height: 300px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+    color: #333333;
+    overflow-x: hidden;
+    overflow-y: scroll;        
+}
+
+.memberArticle .formList section .forms #formEnquete td .servicePolicy p{
+	font-size: 100%;
+    color: #333333;
+}
+
+.memberArticle .formList section .forms #formEnquete input{
+	width: 559px;
+	height: 22px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+}
+
+.memberArticle .formList section .forms #formEnquete input.chkbox{
+    width: 18px;
+    height: 18px;
+}
+
+.memberArticle .formList section .forms #formEnquete textarea{
+	width: 559px;
+	height: 88px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+}
+
+.memberArticle .formList section .forms .sendButton{
+	text-align: center;    
+}
+
+.memberArticle .formList section .forms .sendButton p{
+	text-align: center;
+}
+
+.memberArticle .formList section .forms .sendButton #MemberAddForm,
+.memberArticle .formList section .forms .sendButton #MemberCompleteForm{
+    display: inline-block;
+}
+
+.memberArticle .formList section .forms .sendButton #indexButton,
+.memberArticle .formList section .forms .sendButton #confirmButton,
+.memberArticle .formList section .forms .sendButton #completeButton{
+	text-align: center;
+/*	width: 120px;*/
+    padding: 0 5px;
+    line-height: 30px;
+	height: 30px;
+	background: #e39943;
+	border: 0px solid;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* メンバーマイページ関連 */
+p.mypageLabel{
+	color: #683800;
+    line-height: 1.8;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+
+
+/* ============================================================
+08: catalogs
+============================================================ */
+/* Catalogs Area */
+.catalogsArticle{
+	background: #ffffff;
+	width: 600px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.catalogsArticle .catalogsTitle{
+	width: 600px;
+	height: 40px;
+}
+
+.catalogsArticle .catalogsTitle h2{
+}
+
+/* Catalogs List */
+.catalogsArticle .sentenseList{
+}
+
+.catalogsArticle .sentenseList header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.catalogsArticle .sentenseList header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.catalogsArticle .sentenseList section.introduction{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.catalogsArticle .sentenseList section.introduction .sentenses{
+	width: 580px;
+	height: auto;
+	overflow: hidden;
+}
+
+.catalogsArticle .sentenseList section.introduction .sentenses p{
+	color: #683800;
+	line-height: 1.8;
+}
+
+/* Catalog Contents */
+.catalogsArticle .sentenseList section.contentList{
+    border-top: dotted 1px #ebebeb;	
+	padding-bottom: 20px;
+    color: #683800;
+    overflow: hidden;
+}
+
+.catalogsArticle .sentenseList section.contentList header{
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+
+.catalogsArticle .sentenseList section.contentList .published{
+    font-size: 93%; 
+    color: #ffa200;
+}
+
+.catalogsArticle .sentenseList section.contentList .readMore{
+    text-align: right;
+}
+
+.catalogsArticle .sentenseList section.contentList .readMore a{
+    color: #683800;
+    text-decoration: none;
+    background: url("../images/common/icon_bg_arrow.png") no-repeat scroll left center;
+    padding-left: 12px;
+}
+
+.catalogsArticle .sentenseList section.contentList .readMore a:hover{
+    text-decoration: underline;
+}
+
+.catalogsArticle .sentenseList section.contentListNone .emptyData{
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Catalog Contents Detail */
+.catalogsArticle .sentenseView{
+}
+
+.catalogsArticle .sentenseView header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.catalogsArticle .sentenseView header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.catalogsArticle .sentenseView section.introduction{
+	padding-bottom: 15px;
+}
+
+.catalogsArticle .sentenseView section.introduction .catalogMain{
+	width: 600px;
+	height: auto;
+	overflow: hidden;
+}
+
+.catalogsArticle .sentenseView section.introduction .catalogMain p.image_main{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Catalog Contents Detail(Main) */
+.catalogsArticle .sentenseView section.detailOfCatalogMain{
+	padding-bottom: 25px;
+}
+
+.catalogsArticle .sentenseView section.detailOfCatalogMain div{
+	color:#683800;
+}
+
+.catalogsArticle .sentenseView section.detailOfCatalogMain div table{
+    border-bottom:1px dotted #e2e2e2;
+    border-right:1px dotted #e2e2e2;
+}
+
+.catalogsArticle .sentenseView section.detailOfCatalogMain div ol li{
+    margin-left: 30px;
+}
+
+.catalogsArticle .sentenseView section.detailOfCatalogMain div ul li{
+    margin-left: 25px;
+}
+
+.catalogsArticle .sentenseView section.detailOfCatalogMain div ul td,
+.catalogsArticle .sentenseView section.detailOfCatalogMain div ul th{
+    border-top:1px dotted #e2e2e2;
+    border-left:1px dotted #e2e2e2;
+}
+
+/* ============================================================
+09: catalogComments
+============================================================ */
+/* catalogComments Area */
+.catalogCommentsArticle{
+	background: #ffffff;
+	width: 600px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.catalogCommentsArticle .catalogCommentsTitle{
+	width: 600px;
+	height: 40px;
+}
+
+.catalogCommentsArticle .catalogCommentsTitle h2{
+}
+
+/* catalogComments List */
+.catalogCommentsArticle .sentenseList{
+}
+
+.catalogCommentsArticle .sentenseList header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.catalogCommentsArticle .sentenseList header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.catalogCommentsArticle .sentenseList section.introduction{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.catalogCommentsArticle .sentenseList section.introduction .sentenses{
+	width: 580px;
+	height: auto;
+	overflow: hidden;
+}
+
+.catalogCommentsArticle .sentenseList section.introduction .sentenses p{
+	color: #683800;
+	line-height: 1.8;
+}
+
+/* catalogComments Contents */
+.catalogCommentsArticle .sentenseList section.contentList{
+    border-top: dotted 1px #ebebeb;	
+	padding-bottom: 20px;
+    color: #683800;
+    overflow: hidden;
+}
+
+.catalogCommentsArticle .sentenseList section.contentList header{
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+
+.catalogCommentsArticle .sentenseList section.contentList .kcpy{
+    font-size: 93%; 
+}
+
+.catalogCommentsArticle .sentenseList section.contentList .main_image img{
+    border: solid 1px #f7f7f7; 
+}
+
+.catalogCommentsArticle .sentenseList section.contentList .published{
+    font-size: 93%; 
+    color: #ffa200;
+}
+
+.catalogCommentsArticle .sentenseList section.contentList .main_image{
+    float: left;
+}
+
+.catalogCommentsArticle .sentenseList section.contentList .readMore{
+    text-align: right;
+}
+
+.catalogCommentsArticle .sentenseList section.contentList .readMore a{
+    color: #683800;
+    text-decoration: none;
+    background: url("../images/common/icon_bg_arrow.png") no-repeat scroll left center;
+    padding-left: 12px;
+}
+
+.catalogCommentsArticle .sentenseList section.contentList .readMore a:hover{
+    text-decoration: underline;
+}
+
+.catalogCommentsArticle .sentenseList section.contentListNone .emptyData{
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* catalogComments Contents Detail */
+.catalogCommentsArticle .sentenseView{
+}
+
+.catalogCommentsArticle .sentenseView header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.catalogCommentsArticle .sentenseView header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.catalogCommentsArticle .sentenseView section.introduction{
+	padding-bottom: 15px;
+}
+
+.catalogCommentsArticle .sentenseView section.introduction .spacialMain{
+	width: 600px;
+	height: auto;
+	overflow: hidden;
+}
+
+.catalogCommentsArticle .sentenseView section.introduction .spacialMain p.image_main{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* catalogComments Contents Detail(Main) */
+.catalogCommentsArticle .sentenseView section.detailOfSpecialMain{
+	padding-bottom: 25px;
+}
+
+.catalogCommentsArticle .sentenseView section.detailOfSpecialMain header{
+    margin:0;
+}
+
+.catalogCommentsArticle .sentenseView section.detailOfSpecialMain header h4{
+	margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #ffa200;
+	border-style:solid;
+	background:#ffffff;
+	color:#ffa200;
+	line-height:140%;
+	font-weight:bold;
+}
+
+.catalogCommentsArticle .sentenseView section.detailOfSpecialMain div{
+	color:#683800;
+}
+
+/* catalogComments Contents Detail(Sub) */
+.catalogCommentsArticle .sentenseView section.detailOfSpecialSub{
+	padding-bottom: 25px;
+}
+
+.catalogCommentsArticle .sentenseView section.detailOfSpecialSub header{
+    margin:0;
+}
+
+.catalogCommentsArticle .sentenseView section.detailOfSpecialSub header h4{
+	margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #ffa200;
+	border-style:solid;
+	background:#ffffff;
+	color:#ffa200;
+	line-height:140%;
+	font-weight:bold;
+}
+
+.catalogCommentsArticle .sentenseView section.detailOfSpecialSub div{
+    width: 600px;
+    height: auto;
+	color:#683800;
+    overflow: hidden;
+}
+
+.catalogCommentsArticle .sentenseView section.detailOfSpecialSub div p.image_sub{
+    float: right;
+}
+
+/* catalogComments Contents Detail(Etc) */
+.catalogCommentsArticle .sentenseView section.detailOfSpecialEtc{
+    width: 600px;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.catalogCommentsArticle .sentenseView section.detailOfSpecialEtc div{
+    width: 596px;
+    padding: 2px;
+    background:#ebebeb;
+}
+
+.catalogCommentsArticle .sentenseView section.detailOfSpecialEtc div div.etcContents{
+    background: #ffffff;
+    line-height: 1.6;
+    padding: 0 5px;
+    width: 586px;
+    margin: 0;
+}
+
+.catalogCommentsArticle .sentenseView section.detailOfSpecialEtc div div.etcContents div.CKEditorContents{
+    padding: 5px;
+    width: 576px;
+    background: #ffffff;
+}
+
+/* CKEditor Contents (User) */
+.CKEditorContents p{
+    text-align: left;
+}
+
+.CKEditorContents table{
+    border-bottom:1px dotted #e2e2e2;
+    border-right:1px dotted #e2e2e2;
+    
+}
+
+.CKEditorContents ol li{
+    margin-left: 30px;
+}
+
+.CKEditorContents ul li{
+    margin-left: 25px;
+}
+
+.CKEditorContents td,.CKEditorContents th{
+    border-top:1px dotted #e2e2e2;
+    border-left:1px dotted #e2e2e2;
+}
+
+.catalogCommentsArticle .sentenseView section.detailOfSpecialEtc div p.etcInfo{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.catalogCommentsArticle .sentenseView section.detailOfSpecialEtc div p.etcInfo span{
+    color: #ffa200;
+}
+
+/* コメントページの検索エリア */
+.commentSearchBoxArea{
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 590px;
+/*  text-align: center;*/
+}
+
+.commentSearchBoxArea .commentSearchCountTxt{
+    margin-left: 5px;
+    font-size: 93%;
+    padding-bottom: 7px;
+}
+
+.commentSearchBoxArea .commentSearchCountTxt strong.red{
+    color:#ff0000!important;
+}
+
+.commentSearchBoxArea #commentSearchKeywordTxtBox,
+.commentSearchBoxArea #commentSearchAddressBox{
+    border: medium none;
+    font-size: 100%;
+    height: 22px;
+    width: 440px;
+    border: 1px solid #E2E2E2;
+}
+
+.commentSearchBoxArea .commentSearchTbl{
+    font-size: 93%;
+    margin-bottom: 0;
+}
+
+.commentSearchBoxArea .commentSearchTbl th{
+    width: 100px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.commentSearchBoxArea .commentSearchTbl td label{
+    margin-left: 2px;
+    margin-right: 15px;
+}
+
+.commentSearchBoxArea .searchAPIButtonArea{
+    text-align: center;
+}
+
+.commentSearchBoxArea .searchAPIButtonArea #searchAPIButton{
+    background: url("../../images/catalogs/comment_search_btn.gif") no-repeat scroll left top;
+    border: 0 solid;
+    height: 24px;
+    width: 245px;        
+}
+/* 検索エリア（ここまで） */
+
+aside.afterLinks{
+    border-top: dotted 1px #ebebeb;	
+    width: 600px;
+    height: 24px;
+    position: relative;
+}
+
+aside.afterLinks p.backLink{
+    color: #683800;
+    font-size: 93%;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+        
+}
+
+aside.afterLinks p.backLink a{
+    color: #683800;
+    text-decoration: none;
+    background: url("../images/common/icon_bg_arrow.png") no-repeat scroll left center;
+    padding-left: 12px;        
+}
+
+aside.afterLinks p.backLink a:hover{
+    text-decoration: underline;
+}
+
+aside.afterLinks p.publishedDate{
+    font-size: 93%; 
+    color: #ffa200;
+    position: absolute;
+    top: 4px;
+    right: 0px;
+}
+
+/* コメントページのサブエリア */
+aside.commentSubPageArea{
+    padding-bottom: 20px;
+    font-size: 93%;
+}
+
+aside.commentSubPageArea header h3{
+    color: #FFA200;
+}
+
+/* コメントポリシーエリア */
+.commentPolicyArea{
+    padding-bottom: 20px;
+    font-size: 93%;
+}
+
+.commentPolicyArea header h3{
+    color: #FFA200;
+}
+
+/*
+.specialsArticle .sentenseView section.introduction .spacialMain p.publishDate{
+    font-size: 93%; 
+    color: #ffa200;
+    text-align: right;
+}
+
+.specialsArticle .sentenseView section.introduction .detailOfSpecial{
+}
+
+.specialsArticle .sentenseView section.introduction .detailOfSpecial .image_main{
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+/* ============================================================
+10: posts
+============================================================ */
+/* Post Area */
+.postArticle{
+	background: #ffffff;
+	width: 600px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.postArticle .postTitle{
+	width: 600px;
+	height: 40px;
+}
+
+.postArticle .postTitle h2{
+}
+
+/* Article List */
+.postArticle .formList{
+}
+
+.postArticle .formList header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.postArticle .formList header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.postArticle .formList aside.enquetesMain{
+	width: 600px;
+	height: 200px;
+	padding-bottom: 20px;
+}
+
+.postArticle .formList section{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.postArticle .formList section .forms{
+	width: 580px;
+	height: auto;
+	overflow: hidden;
+}
+
+.postArticle .formList section .forms p{
+	color: #683800;
+	line-height: 1.8;
+}
+
+span.remarked{
+	color: #ffa200;
+}
+
+span.requierd{
+	color: #ff0000;
+}
+
+a.blue{
+    color: #3333ff;
+    text-decoration: underline;
+}
+
+a.blue:visited{
+    color: #3333ff;
+    text-decoration: underline;
+}
+
+.postArticle .formList section .forms #formInquiry{
+	width: 576px;
+	border-right: solid 1px #e2e2e2!important; 
+	border-bottom: solid 1px #e2e2e2!important;
+}
+
+.postArticle .formList section .forms #formInquiry th{
+	text-align: left;
+	width: 178px;
+	background: #ebebeb;
+	color: #683800;
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.postArticle .formList section .forms #formInquiry td{
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.postArticle .formList section .forms #formInquiry td div.error-message{
+    color: #ff0000;
+}
+
+.postArticle .formList section .forms #formInquiry input.formArea{
+	width: 368px;
+	height: 22px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+}
+
+.postArticle .formList section .forms #formInquiry label{
+	height: 16px;
+	line-height: 16px;
+}
+
+.postArticle .formList section .forms #formInquiry input.check{
+	width: 16px;
+	height: 16px;
+}
+
+.postArticle .formList section .forms #formInquiry textarea{
+	width: 368px;
+	height: 88px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+}
+
+.postArticle .formList section .forms #formEnquete{
+	width: 576px;
+	border-right: solid 1px #e2e2e2!important; 
+	border-bottom: solid 1px #e2e2e2!important;
+}
+
+.postArticle .formList section .forms #formEnquete th{
+	text-align: left;
+	background: #ebebeb;
+	color: #683800;
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.postArticle .formList section .forms #formEnquete td{
+	border-left: solid 1px #e2e2e2!important; 
+	border-top: solid 1px #e2e2e2!important;
+}
+
+.postArticle .formList section .forms #formEnquete input{
+	width: 559px;
+	height: 22px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+}
+
+.postArticle .formList section .forms #formEnquete textarea{
+	width: 559px;
+	height: 88px;
+	border: solid 1px #ebebeb;
+	font-size: 100%;
+}
+
+.postArticle .formList section .forms .sendButton{
+	text-align: center;    
+}
+
+.postArticle .formList section .forms .sendButton p{
+	text-align: center;
+}
+
+.postArticle .formList section .forms .sendButton #PostIndexForm,
+.postArticle .formList section .forms .sendButton #PostCompleteForm{
+    display: inline-block;
+}
+
+.postArticle .formList section .forms .sendButton #indexButton,
+.postArticle .formList section .forms .sendButton #confirmButton,
+.postArticle .formList section .forms .sendButton #completeButton{
+	text-align: center;
+/*	width: 120px;*/
+    padding: 0 5px;
+    line-height: 30px;
+	height: 30px;
+	background: #e39943;
+	border: 0px solid;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ============================================================
+11: showcase
+============================================================ */
+/* Showcase Area */
+.showcasesArticle{
+	background: #ffffff;
+	width: 600px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.showcasesArticle .showcasesTitle{
+	width: 600px;
+	height: 40px;
+}
+
+.showcasesArticle .showcasesTitle h2{
+}
+
+/* Showcase List */
+.showcasesArticle .sentenseList{
+}
+
+.showcasesArticle .sentenseList header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.showcasesArticle .sentenseList header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.showcasesArticle .sentenseList section.introduction{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+}
+
+.showcasesArticle .sentenseList section.introduction .sentenses{
+	width: 580px;
+	height: auto;
+	overflow: hidden;
+}
+
+.showcasesArticle .sentenseList section.introduction .sentenses p{
+	color: #683800;
+	line-height: 1.8;
+}
+
+/* Showcase Contents */
+.showcasesArticle .sentenseList section.contentList{
+    border-top: dotted 1px #ebebeb;	
+	padding-bottom: 20px;
+    color: #683800;
+    overflow: hidden;
+}
+
+.showcasesArticle .sentenseList section.contentList header{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.showcasesArticle .sentenseList section.contentList .kcpy{
+    font-size: 93%; 
+}
+
+.showcasesArticle .sentenseList section.contentList .main_image img{
+    border: solid 1px #f7f7f7; 
+}
+
+.showcasesArticle .sentenseList section.contentList .published{
+    font-size: 93%; 
+    color: #ffa200;
+}
+
+.showcasesArticle .sentenseList section.contentList .price{
+    font-size: 93%; 
+    color: #ff0000;
+}
+
+.showcasesArticle .sentenseList section.contentList .main_image{
+    float: left;
+}
+
+.showcasesArticle .sentenseList section.contentList .readMore{
+    text-align: right;
+}
+
+.showcasesArticle .sentenseList section.contentList .readMore a{
+    color: #683800;
+    text-decoration: none;
+    background: url("../images/common/icon_bg_arrow.png") no-repeat scroll left center;
+    padding-left: 12px;
+}
+
+.showcasesArticle .sentenseList section.contentList .readMore a:hover{
+    text-decoration: underline;
+}
+
+.showcasesArticle .sentenseList section.contentListNone .emptyData{
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+/* Showcase Contents Detail */
+.showcasesArticle .sentenseView{
+}
+
+.showcasesArticle .sentenseView header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 600px;
+}
+
+.showcasesArticle .sentenseView header h3{
+	background: url(../images/common/h3_title_entries.png) left center no-repeat;
+	font-size: 114%;
+	margin-left: 9px;
+	padding-left: 30px;
+	color: #683800;
+}
+
+.showcasesArticle .sentenseView section.introduction{
+	padding-bottom: 15px;
+}
+
+.showcasesArticle .sentenseView section.introduction .showcaseMain{
+	width: 600px;
+	height: auto;
+	overflow: hidden;
+}
+
+.showcasesArticle .sentenseView section.introduction .showcaseMain p.image_main{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----- 以下すべてはあとで変更する部分 ----- */
+/* Showcase Contents Detail(Main) */
+.showcasesArticle .sentenseView section.detailOfShowcaseMain{
+	padding-bottom: 25px;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseMain header{
+    margin:0;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseMain header h4{
+	margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #ffa200;
+	border-style:solid;
+	background:#ffffff;
+	color:#ffa200;
+	line-height:140%;
+	font-weight:bold;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseMain div{
+	color:#683800;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseMain div p.price{
+	padding: 1px 0 7px;
+	color:#ff0000;
+}
+
+/* Showcase Cloud Zoom */
+.showcasesArticle .sentenseView section.detailOfShowcaseSub{
+	padding-bottom: 25px;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseSub header{
+    margin:0;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseSub header h4{
+	margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #ffa200;
+	border-style:solid;
+	background:#ffffff;
+	color:#ffa200;
+	line-height:140%;
+	font-weight:bold;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseSub div{
+    width: 600px;
+    height: auto;
+	color:#683800;
+    overflow: hidden;
+}
+
+/* Customize Cloud Style */
+.showcasesArticle .sentenseView section.detailOfShowcaseSub div section.showcaseGalleryPhotoMain{
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseSub div section.showcaseGalleryPhotoMain a img{
+	vertical-align:bottom;	
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseSub div aside.showcaseGalleryPhotoSub ul#thumblist{
+	display: block;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseSub div aside.showcaseGalleryPhotoSub ul#thumblist li{
+	float: left;
+	list-style: none;
+	display: inline;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseSub div aside.showcaseGalleryPhotoSub ul#thumblist li a{
+	display: block;
+	border: 1px solid #cccccc;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseSub div aside.showcaseGalleryPhotoSub ul#thumblist li a.zoomThumbActive{
+    border:1px solid #ff0000;
+}
+
+.jqzoom{
+	text-decoration:none;
+	float:left;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseSub div aside.showcaseGalleryPhotoSub ul#thumblist li a img{
+	vertical-align:bottom;	
+}
+
+/*
+.showcasesArticle .sentenseView section.detailOfSpecialSub div p.image_sub{
+    float: right;
+}
+*/
+/* Showcase API */
+
+
+
+/* Showcase Showcase Etc */
+.showcasesArticle .sentenseView section.detailOfShowcaseEtc{
+    width: 600px;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseEtc div{
+    width: 596px;
+    padding: 2px;
+    background:#ebebeb;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseEtc div div.etcContents{
+    background: #ffffff;
+    line-height: 1.6;
+    padding: 0 5px;
+    width: 586px;
+    margin: 0;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseEtc div div.etcContents div.CKEditorContents{
+    padding: 5px;
+	width: 576px;
+    background: #ffffff;
+}
+
+/* CKEditor Contents (User) */
+.CKEditorContents p{
+    text-align: left;
+}
+
+.CKEditorContents table{
+    border-bottom:1px dotted #e2e2e2;
+    border-right:1px dotted #e2e2e2;
+}
+
+.CKEditorContents ol li{
+    margin-left: 30px;
+}
+
+.CKEditorContents ul li{
+    margin-left: 25px;
+}
+
+.CKEditorContents td,.CKEditorContents th{
+    border-top:1px dotted #e2e2e2;
+    border-left:1px dotted #e2e2e2;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseEtc div p.etcInfo{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.showcasesArticle .sentenseView section.detailOfShowcaseEtc div p.etcInfo span{
+    color: #ffa200;
+}
+
+
+/* Special Contents Detail(Sub) */
+/*
+.specialsArticle .sentenseView section.detailOfSpecialSub{
+	padding-bottom: 25px;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialSub header{
+    margin:0;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialSub header h4{
+	margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #ffa200;
+	border-style:solid;
+	background:#ffffff;
+	color:#ffa200;
+	line-height:140%;
+	font-weight:bold;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialSub div{
+    width: 600px;
+    height: auto;
+	color:#683800;
+    overflow: hidden;
+}
+
+.specialsArticle .sentenseView section.detailOfSpecialSub div p.image_sub{
+    float: right;
+}
+*/
